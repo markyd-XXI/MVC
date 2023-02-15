@@ -1,0 +1,32 @@
+[
+  {
+    "team_name": "The Thunderbolts",
+    "win_loss_record": [
+      {"opponent": "Eagles", "result": "Win", "score": "24-21"},
+      {"opponent": "Bears", "result": "Loss", "score": "10-17"},
+      {"opponent": "Lions", "result": "Win", "score": "28-14"},
+      {"opponent": "Packers", "result": "Loss", "score": "7-14"},
+      {"opponent": "Giants", "result": "Win", "score": "31-28"},
+      {"opponent": "Cowboys", "result": "Loss", "score": "17-21"},
+      {"opponent": "Vikings", "result": "Loss", "score": "14-21"},
+      {"opponent": "Falcons", "result": "Win", "score": "35-28"},
+      {"opponent": "Saints", "result": "Win", "score": "21-17"},
+      {"opponent": "Panthers", "result": "Win", "score": "28-21"}
+    ]
+  },
+  {
+    "team_name": "The Mavericks",
+    "win_loss_record": [
+      {"opponent": "Chargers", "result": "Win", "score": "27-14"},
+      {"opponent": "Jets", "result": "Win", "score": "21-10"},
+      {"opponent": "Dolphins", "result": "Loss", "score": "10-21"},
+      {"opponent": "Patriots", "result": "Loss", "score": "7-14"},
+      {"opponent": "Steelers", "result": "Loss", "score": "14-21"},
+      {"opponent": "Ravens", "result": "Win", "score": "24-20"},
+      {"opponent": "Browns", "result": "Win", "score": "21-14"},
+      {"opponent": "Texans", "result": "Win", "score": "28-21"},
+      {"opponent": "Titans", "result": "Loss", "score": "10-17"},
+      {"opponent": "Jaguars", "result": "Win", "score": "35-14"}
+    ]
+  }
+]

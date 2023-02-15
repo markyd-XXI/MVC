@@ -1,0 +1,92 @@
+[
+  {
+    "team_name": "The Thunderbolts",
+    "players": [
+      {
+        "name": "Jake Johnson",
+        "position": "Quarterback",
+        "number": 10,
+        "age": 26,
+        "height": "6'0\"",
+        "weight": 200
+      },
+      {
+        "name": "Ryan Smith",
+        "position": "Running back",
+        "number": 25,
+        "age": 24,
+        "height": "5'11\"",
+        "weight": 195
+      },
+      {
+        "name": "Eric Thompson",
+        "position": "Wide receiver",
+        "number": 81,
+        "age": 27,
+        "height": "6'2\"",
+        "weight": 210
+      },
+      {
+        "name": "Alex Garcia",
+        "position": "Tight end",
+        "number": 88,
+        "age": 25,
+        "height": "6'3\"",
+        "weight": 220
+      },
+      {
+        "name": "Mike Lee",
+        "position": "Defensive end",
+        "number": 95,
+        "age": 28,
+        "height": "6'4\"",
+        "weight": 260
+      }
+    ]
+  },
+  {
+    "team_name": "The Mavericks",
+    "players": [
+      {
+        "name": "Matt Jackson",
+        "position": "Quarterback",
+        "number": 8,
+        "age": 27,
+        "height": "6'1\"",
+        "weight": 205
+      },
+      {
+        "name": "Jason Brown",
+        "position": "Running back",
+        "number": 22,
+        "age": 23,
+        "height": "5'10\"",
+        "weight": 190
+      },
+      {
+        "name": "Chris Davis",
+        "position": "Wide receiver",
+        "number": 89,
+        "age": 26,
+        "height": "6'0\"",
+        "weight": 195
+      },
+      {
+        "name": "Jenny Kim",
+        "position": "Tight end",
+        "number": 87,
+        "age": 24,
+        "height": "5'11\"",
+        "weight": 190
+      },
+      {
+        "name": "Nick Wilson",
+        "position": "Defensive tackle",
+        "number": 99,
+        "age": 29,
+        "height": "6'3\"",
+        "weight": 300
+      }
+    ]
+  }
+]

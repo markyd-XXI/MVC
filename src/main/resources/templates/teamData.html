@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Football Team Data</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<div th:each="team: ${teams}">
+    <div th:text="${team.teamName} + ' Roster'" />
+    <ul>
+        <table border="1" width="500">
+            <tr bgcolor="#dddddd">
+                <td>Name</td>
+                <td>Position</td>
+                <td>Number</td>
+                <td>Age</td>
+                <td>Height</td>
+                <td>Weight</td>
+            </tr>
+        <div th:each="player: ${team.players}">
+                <tr>
+                    <td width="150" th:text="${player.name}" />
+                    <td th:text="${player.position}" />
+                    <td th:text="${player.number}" />
+                    <td th:text="${player.age}" />
+                    <td th:text="${player.height}" />
+                    <td th:text="${player.weight}" />
+                </tr>
+        </div>
+        </table>
+    </ul>
+</div>
+<div th:each="record: ${records}">
+    <div th:text="${record.teamName} + ' Records'" />
+    <ul>
+        <table border="1" width="500">
+            <tr bgcolor="#dddddd">
+                <td>Opponent</td>
+                <td>Result</td>
+                <td>Score</td>
+            </tr>
+            <div th:each="gameResult: ${record.gameResults}">
+                <tr>
+                    <td th:text="${gameResult.opponent}" />
+                    <td th:text="${gameResult.result}" />
+                    <td th:text="${gameResult.score}" />
+                </tr>
+            </div>
+        </table>
+    </ul>
+</div>
+</body>
+</html>
