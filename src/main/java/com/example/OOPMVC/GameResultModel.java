@@ -2,6 +2,9 @@ package com.example.OOPMVC;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+/**
+ * POJO modeling game result data
+ */
 public class GameResultModel {
     private String opponent;
     private String result;

@@ -2,6 +2,9 @@ package com.example.OOPMVC;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+/**
+ * POJO modeling player data
+ */
 public class PlayerModel {
     private String name;
     private String position;

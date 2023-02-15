@@ -4,6 +4,9 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.List;
 
+/**
+ * POJO modeling team record data
+ */
 public class TeamRecordModel {
     private String teamName;
     private List<GameResultModel> gameResults;
